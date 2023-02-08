@@ -1,0 +1,127 @@
+.profile{
+    display: flex;
+}
+
+
+
+.profileCover{
+    height: 190px;
+    position: relative;  
+}
+
+.profileCoverImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    
+  
+ 
+}
+
+.profileUserImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: auto;
+    margin: auto;
+    top: 0px;
+    border:3px solid white;
+}
+
+.profileInfo{
+   
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+
+
+
+
+.profileInfoName{
+    font-weight: 500;
+    font-family: 'Roboto';
+    text-align: left;
+position: absolute;
+left: 160px;
+right: 0px;
+margin: auto;
+top: 50px;
+font-size: 35px;
+height: 40px;
+color: white;
+background-color: rgba(0,0,0,.8);
+-webkit-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;
+border-radius: 5px;
+padding: 1px;
+padding-left: 60px;
+ 
+    
+    
+}
+
+.ProfileStatus{
+    position: absolute;
+    left: 160px;
+    right: 0;
+    margin: auto;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    text-align: justify;  
+    background-color: rgba(0,0,0,.8);
+-webkit-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;
+    height: 30px;
+border-radius: 5px;
+padding: 4px;
+padding-left: 5px;
+}
+
+.prtofileInfoDesc{
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 300;
+    display: flex;
+    font-size: 20px;
+    text-align: justify;
+    
+    
+   }
+
+.profileRightBottom{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 1050px) {
+.ProfileStatus{
+    background-color: rgba(0,0,0,.8);
+-webkit-transition: opacity .3s ease-in-out;
+transition: opacity .3s ease-in-out;
+    top: 150px;
+    left: 0px;
+}
+
+.profileInfoName{
+    justify-content: center;
+    height:80px ;
+}
+.profileInfoName{
+
+padding-left: 13px;
+ 
+    
+    
+}
+
+
+}

@@ -1,0 +1,104 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginwrapper{
+    height: 70%;
+    width: 70%;
+    display: flex;
+}
+
+.loginleft , .loginright{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.logotext {
+    font-size: 80px;
+    font-weight: 600;
+    color: red;
+    margin-top: 151px;
+    margin-bottom: auto;
+}
+
+.logoDesc {
+    font-size: 32px;
+    margin-top: 5px;
+    flex: auto;
+}
+
+
+
+.formlogin{
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.loginInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+    .login{
+        width: fit-content;
+        height: 100vh;
+    }
+        .loginwrapper{
+            height: 100%;
+            width: 70%;
+            display: flex;
+        }
+    
+    .logotext {
+        text-align: center;
+    
+        font-size: 62px;
+        font-weight: 600;
+        color: red;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+    }
+        
+    .logoDesc {
+        text-align: center;
+    
+        font-size: 32px;
+        flex: auto;
+        }
+    
+    
+    
+    .loginwrapper{
+        flex-wrap: wrap;
+        }
+    
+    
+    .loginleft , .loginright{
+        width: 100% ; 
+        }
+      }

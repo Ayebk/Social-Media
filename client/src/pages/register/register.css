@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+.register{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+
+.registerwrapper{
+    height: 70%;
+    width: 70%;
+    display: flex;
+}
+
+.registerleft , .registerright{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.registerlogotext {
+    font-size: 80px;
+    font-weight: 600;
+    color: red;
+    margin-top: 151px;
+    margin-bottom: auto;
+}
+
+.registerlogoDesc {
+    font-size: 32px;
+    margin-top: 5px;
+    flex: auto;
+}
+
+
+
+.formregister{
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+.registerInput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.registerInput:focus{
+    outline: none;
+}
+
+.buttonGuest{
+    font-family: cursive;
+    height: 50px; 
+    background-color: "#00c9ff";
+    top: -37px ; 
+    width:65% ; 
+    margin-left: auto; 
+    margin-right: auto 
+}
+
+@media only screen and (max-width: 650px) {
+
+.register{
+    width: fit-content;
+    height: 100vh;
+}
+    .registerwrapper{
+        height: 100%;
+        width: 70%;
+        display: flex;
+    }
+
+.registerlogotext {
+    text-align: center;
+
+    font-size: 62px;
+    font-weight: 600;
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+    
+.registerlogoDesc {
+    text-align: center;
+
+    font-size: 32px;
+    flex: auto;
+    }
+
+
+
+.registerwrapper{
+    flex-wrap: wrap;
+    }
+
+
+.registerleft , .registerright{
+    width: 100% ; 
+    }
+  }
